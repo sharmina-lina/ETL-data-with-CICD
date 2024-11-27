@@ -1,0 +1,139 @@
+[
+    {
+        "coord": {
+            "lon": 10.7461,
+            "lat": 59.9127
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 274.63,
+            "feels_like": 272.73,
+            "temp_min": 273.11,
+            "temp_max": 275.18,
+            "pressure": 1017,
+            "humidity": 77,
+            "sea_level": 1017,
+            "grnd_level": 992
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.75,
+            "deg": 2,
+            "gust": 3.98
+        },
+        "clouds": {
+            "all": 91
+        },
+        "dt": 1732730529,
+        "sys": {
+            "type": 2,
+            "id": 2094972,
+            "country": "NO",
+            "sunrise": 1732693416,
+            "sunset": 1732717576
+        },
+        "timezone": 3600,
+        "id": 3143244,
+        "name": "Oslo",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": 90.4074,
+            "lat": 23.7104
+        },
+        "weather": [
+            {
+                "id": 721,
+                "main": "Haze",
+                "description": "haze",
+                "icon": "50n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 294.14,
+            "feels_like": 294.33,
+            "temp_min": 294.14,
+            "temp_max": 294.14,
+            "pressure": 1013,
+            "humidity": 78,
+            "sea_level": 1013,
+            "grnd_level": 1012
+        },
+        "visibility": 3200,
+        "wind": {
+            "speed": 0,
+            "deg": 0
+        },
+        "clouds": {
+            "all": 89
+        },
+        "dt": 1732730223,
+        "sys": {
+            "type": 1,
+            "id": 9145,
+            "country": "BD",
+            "sunrise": 1732753327,
+            "sunset": 1732792260
+        },
+        "timezone": 21600,
+        "id": 1185241,
+        "name": "Dhaka",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -74.006,
+            "lat": 40.7143
+        },
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 283.5,
+            "feels_like": 281.84,
+            "temp_min": 282.17,
+            "temp_max": 284.45,
+            "pressure": 1016,
+            "humidity": 48,
+            "sea_level": 1016,
+            "grnd_level": 1015
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 5.81,
+            "deg": 303,
+            "gust": 5.81
+        },
+        "clouds": {
+            "all": 0
+        },
+        "dt": 1732730034,
+        "sys": {
+            "type": 1,
+            "id": 4610,
+            "country": "US",
+            "sunrise": 1732708633,
+            "sunset": 1732743050
+        },
+        "timezone": -18000,
+        "id": 5128581,
+        "name": "New York",
+        "cod": 200
+    }
+]
