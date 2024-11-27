@@ -1,5 +1,11 @@
 name: Weather Data Pipeline
 
+on:
+    push:
+        branches: [ "main" ]
+    pull_request:
+        branches: [ "main" ]
+
 jobs:
     pipeline:
       runs-on: ubuntu-latest
