@@ -2,7 +2,7 @@ import requests
 import json
 
 API_KEY = '9a1883ede133db713c9cccb8f52434d7'
-CITIES = ['Oslo', 'Dhaka', 'New York']
+CITIES = ['Oslo', 'Dhaka', 'New York', 'Bergen', 'Khulna', 'Shanghai']
 OUTPUT_FILE = 'raw_weather_data.json'
 
 def fetch_weather_data():

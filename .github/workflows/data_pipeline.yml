@@ -1,0 +1,26 @@
+name: Weather Data Pipeline
+
+jobs:
+    pipeline:
+      runs-on: ubuntu-latest
+  
+      steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+  
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.8'
+  
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+  
+      - name: Run Extract Script
+        run: python extract_data.py
+  
+      - name: Run Transform Script
+        run: python transform_data.py
+  
+      - name: Run Load Script
+        run: python load_data.py
